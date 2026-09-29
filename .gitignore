@@ -1,0 +1,8 @@
+.DS_Store
+cookies.json
+**/cookies.json
+__pycache__/
+*.pyc
+work/
+*.log
+*.pid

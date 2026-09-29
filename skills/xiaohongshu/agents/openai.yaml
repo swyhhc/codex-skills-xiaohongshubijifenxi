@@ -1,0 +1,7 @@
+interface:
+  display_name: "小红书批量分析"
+  short_description: "批量采集、OCR、Codex分析与Excel报告"
+  default_prompt: "Use $xiaohongshu to analyze these RedNote links and produce a verified Excel report."
+
+policy:
+  allow_implicit_invocation: true

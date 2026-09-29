@@ -1,0 +1,26 @@
+{
+  "required": [
+    "index",
+    "comment_focus",
+    "cover_ocr",
+    "cover_strategy",
+    "content_type",
+    "commercial_judgment",
+    "brand_product",
+    "placement",
+    "high_read_method",
+    "evidence_gap"
+  ],
+  "content_type_values": [
+    "教程攻略",
+    "痛点解决",
+    "科普知识",
+    "场景化故事",
+    "对比测评",
+    "KOL/KOC亲测",
+    "行业观点",
+    "产品展示",
+    "其他未确认"
+  ],
+  "commercial_judgment_values": ["商业", "疑似商业", "非商业", "无法判断"]
+}
