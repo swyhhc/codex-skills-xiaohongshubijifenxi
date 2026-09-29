@@ -1,11 +1,26 @@
 ---
 name: xiaohongshu
-description: Use when 用户需要搜索、读取、批量整理、导出、分析或跟踪小红书（RedNote）笔记、评论和作者，或需要发布、点赞、收藏、评论及调用 xiaohongshu-mcp 时。
+description: Use when 用户需要搜索、读取、批量整理、导出、复盘或跟踪小红书（RedNote）笔记、评论和作者，分析赛道、人群买点、内容DNA、竞品投放、投放经济性、跨期趋势、素材规格和合规表达，或需要发布、点赞、收藏、评论及调用 xiaohongshu-mcp 时。
 ---
 
 # 小红书数据与操作
 
 只通过 [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp) 访问小红书。默认只读、先少量试采；批量任务最多4路并发。出现平台警告、验证、登录异常或访问限制时立即停止。
+
+## 分析模式
+
+先完成真实读取，再根据用户问题加载对应参考文件；不要把所有模块机械套在每次任务上。
+
+| 用户要解决的问题 | 读取的参考文件 |
+|---|---|
+| 单篇或批量内容复盘、高低效对比 | `references/strategy-framework.md`、`references/output-modes.md` |
+| 赛道机会、人群画像、人群买点 | `references/track-insight.md` |
+| 竞品投放、达人结构、投放经济性 | `references/competitor-placement.md` |
+| 月度复盘、跨期趋势、竞品变化信号 | `references/trend-assets.md` |
+| 投放天数、内容形式、素材规格和报价 | `references/placement-cadence.md` |
+| 医疗、保健、美妆等敏感表达 | `references/compliance.md` |
+
+只分析单篇笔记时，保留简洁输出，不强制套用经营三问、趋势预测或投放经济性。用户明确要求“完整策略分析”时，才组合多个模块。
 
 ## 开始前
 
